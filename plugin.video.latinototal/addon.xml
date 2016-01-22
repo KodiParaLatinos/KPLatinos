@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="plugin.video.latinototal" version="0.2.0" name="latinototal" provider-name="19hdz19">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.youtube" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+                <platform>all</platform>
+		<summary lang="es">totallatino</summary>
+		<description lang="es">agradecimientos a juarrox el creador de la base de este plugin y a largobarbate por su ayuda, sin la ayuda de ellos este addon no funcionaria</description>
+		<description lang="es">agradecimientos a juarrox el creador de la base de este  plugin y a largobarbate por su ayuda, sin la ayuda de ellos este addon funcionaria</description>
+		<description lang="es">[B]Agradecimientos:[B]agradecimientos a Juarrox el creador de la base de este plugin y a largobarbate por su ayuda, sin la ayuda de ellos este addon funcionaria</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+		<disclaimer lang="es">Algunas partes de este addon podrían no ser legales en tu país de residencia - por favor comprueba las leyes de tu país antes de su instalación.</disclaimer>
+		<website>[COLOR yellow][B]http://www.palcotv.net[/B][/COLOR]</website>
+		<license>GPL 2.0</license>
+		<platform>all</platform>        
+		<language>en</language>
+	</extension>
+</addon>
